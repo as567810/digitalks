@@ -1,54 +1,6 @@
-function showerrorpro(mydiv, erromsg) {
-    $(mydiv).css({ border: '1px solid red ', color: '#222', background: '#e1e1e1' });
-    // $("html, body").animate({ scrollTop: $(mydiv).offset().top - 150 }, 500);
-    // $(mydiv).focus();
-    if (erromsg !== '') {
-        $(mydiv).after('<span class="show-error-msg">' + erromsg + '</span>');
-    }
-}
-
-function showsuccesspro(mydiv) {
-    $(mydiv).css({ border: '1px solid #D7D7D7', background: '#e9eaec', color: '#222' });
-    $('.show-error-msg').remove();
-}
-function ValidateEmail(email) {
-    var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-    return expr.test(email);
-};
 
 
-   
 
-function innernavscroll() {
-
-    if ($(document).scrollTop() > $('.banner').offset().top - 120) {
-        $('.nav-ul li').removeClass('active');
-
-    }
-    if ($(document).scrollTop() > $('.choose').offset().top - 120) {
-        $('.nav-ul li').removeClass('active');
-        $('#choose').addClass('active');
-    }
-
-    if ($(document).scrollTop() > $('.testimonials').offset().top - 120) {
-        $('.nav-ul li').removeClass('active');
-        $('#testimonials').addClass('active');
-    }
-
-    if ($(document).scrollTop() > $('.how-works').offset().top - 120) {
-        $('.nav-ul li').removeClass('active');
-        $('#how-works').addClass('active');
-    }
-    if ($(document).scrollTop() > $('.faq').offset().top - 120) {
-        $('.nav-ul li').removeClass('active');
-        $('#faq').addClass('active');
-    }
-
-}
-
-$(window).scroll(function() {
-    innernavscroll();
-});
 
 $(window).scroll(function() {
 
@@ -58,13 +10,17 @@ $(window).scroll(function() {
 
         $('#top-link-block').addClass('affix');
 
+        $('header').addClass('fixed');
+
     } else {
 
         $('#top-link-block').removeClass('affix');
 
-    }
+        $('header').removeClass('fixed');
 
+    }
 });
+
 $(".cl_form").click(function() {
     $("html, body").animate({
         scrollTop: $('.choose').offset().top - 100
@@ -88,6 +44,34 @@ $(document).ready(function() {
                 event.preventDefault();
             }
         }
+    });
+    $("#search-icon").click(function() {
+        $(".nav").toggleClass("search");
+        $(".nav").toggleClass("no-search");
+        $(".search-input").toggleClass("search-active");
+
+    });
+
+    $('.menu-toggle').click(function(event) {
+        event.stopPropagation();
+        $(".nav").toggleClass("mobile-nav");
+        $(this).toggleClass("is-active");
+        // $('body').addClass('mob_nav_scroll');
+    });
+
+
+    $(".social").click(function() {
+        $(".pop-req").slideToggle();
+    });
+
+    $("body").click(function() {
+        $(".pop-req").slideUp();
+    });
+    $('.social').click(function(event){
+        event.stopPropagation();
+    });
+    $('.pop-req').click(function(event){
+        event.stopPropagation();
     });
     
     $('.mob-nav-btn').click(function() {
