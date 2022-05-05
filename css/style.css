@@ -1281,6 +1281,192 @@ footer .foot-copyright .cpy-txt {
     color: rgb(255, 212, 93);
     text-align: center;
 }
+
+.faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.faq h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'tungsten';
+}
+
+.faq .sub-head {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open {
+    background-color: #f1f1f1;
+}
+
+.accordion-container.service-cloud {
+    height: auto;
+}
+
+.accordion-container .accordion-title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    width: 15px;
+    height: 2px;
+    transform: rotate(42deg);
+    background: #444;
+    transition: all .3s ease-in-out;
+}
+
+.accordion-container .accordion-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 15px;
+    height: 2px;
+    background: #444;
+    transition: all .2s ease-in-out;
+    transform: rotate(133deg);
+}
+
+.accordion-container .accordion-title.open::before {
+    transform: rotate(135deg);
+}
+
+.accordion-container .accordion-title.open::after {
+    transform: rotate(219deg);
+}
+
+.accordion-content {
+    padding-left: 2.3125em;
+    border: 1px solid #f0f0f0;
+}
+
+.accordion-content p {
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+
+/* CSS for Demo */
+
+.accordion-container {
+    width: 100%;
+    float: left;
+    margin-top: 44px;
+}
+
+.choos-us-imp.light .main-se ul {
+    justify-content: center;
+}
+
+.outsourcing.threesixty .right {
+    margin-top: 105px;
+}
+
+.outsourcing.cust .main-w {
+    box-shadow: 0 -8px 11px 8px rgba(0, 0, 0, 0.04);
+    padding: 50px 120px 200px;
+    width: 100%;
+    float: left;
+}
+
+.outsourcing.cust h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'tungsten';
+    text-align: center;
+}
+
+.outsourcing.cust .right {
+    padding-right: 20px;
+}
+
+.choos-us-imp h2 {
+    margin-bottom: 20px;
+}
+
+.choos-us-imp.threesixty .main-se {
+    position: relative;
+}
+
+.choos-us-imp.threesixty .main-se .sub-head {
+    font-size: 15px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.choos-us-imp.threesixty .main-se::before {
+    content: '';
+    position: absolute;
+    background: url(../images/360/bg.png)  no-repeat;
+    background-size: 100%;
+    bottom: 30px;
+    right: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+.outsourcing.cust.about .right {
+    padding-top: 0;
+    width: 48%;
+}
+
+.outsourcing.cust.about .subhead {
+    text-align: center;
+}
+
+.outsourcing.cust.about h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    border-bottom: #d8d8d8 solid 1px;
+}
+
+.outsourcing.cust.about .main-w {
+    padding-bottom: 100px;
+}
+
+.outsourcing.about {
+    padding-bottom: 10px;
+}
+
+.outsourcing.cust.about .left {
+    width: 48%;
+    text-align: center;
+}
+
+.outsourcing.cust.about .low-value {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.outsourcing.cust.about::before {
+    background: none;
+}
+.accordion-container .accordion-title {
+    position: relative;
+    margin: 0;
+    padding: 0.625em 0.625em 0.625em 2em;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #444;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+}
+
 /*********************medium-desktop screen***********************/
 
 @media (min-width: 1600px) and (max-width: 1699px) {
