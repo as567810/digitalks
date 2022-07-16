@@ -1323,12 +1323,17 @@ input {
     color: #fff;
     opacity: 0;
     visibility: hidden;
+    transition: 0.3s;
     
 }
 .catlist ul li .overlay  h3{
     font-size: 20px;
     margin-bottom: 4px;
 
+}
+.catlist ul li:hover .overlay{
+    opacity: 1;
+    visibility: visible;
 }
 /***********************footer *****************/
 
