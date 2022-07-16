@@ -1335,6 +1335,60 @@ input {
     opacity: 1;
     visibility: visible;
 }
+
+.main-data{
+    padding: 50px 0;
+}
+.main-data .main-d{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-data .main-d .left-de{
+    width: 72%;
+}
+.main-data .main-d .right-de{
+    width:25%;
+}
+.main-data .main-d h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-data .main-d  .left-de .details-all h3{
+    font-size: 24px;
+    margin: 5px 0;
+}
+.main-data .main-d  .left-de .details-all ul{
+    margin-left: 23px;
+}
+.main-data .main-d  .left-de .details-all ul li{
+    position: relative;
+    line-height: 23px;
+}
+.main-data .main-d  .left-de .details-all ul li::before{
+    content: "\f058";
+    position: absolute;
+    font: normal normal normal 15px/1 FontAwesome;
+    left: -17px;
+    top: 4px;
+    color: #EE7752;
+}
+.main-data .main-d  .left-de .details-all p{
+    line-height: 25px;
+}
+.main-data .main-d .right-de ul li{
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+}
+.main-data .main-d .right-de h2{
+    margin-bottom: 10px;
+}
+.main-data .main-d .right-de a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
 /***********************footer *****************/
 
 footer {
