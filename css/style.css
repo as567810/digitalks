@@ -1377,17 +1377,29 @@ input {
 .main-data .main-d  .left-de .details-all p{
     line-height: 25px;
 }
+.main-data .main-d .right-de ul{
+    margin-bottom: 20px;
+}
 .main-data .main-d .right-de ul li{
-    line-height: 30px;
+    line-height: 33px;
     border-bottom: 1px dotted #ccc;
 }
 .main-data .main-d .right-de h2{
     margin-bottom: 10px;
+    position: relative;
+}
+.main-data .main-d .right-de h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 70px;
+    height: 3px;
+    background: #ac9104;
 }
 .main-data .main-d .right-de a{
     text-decoration: none;
-    color: #000;
-    font-weight: 500;
+    color: rgb(31, 31, 31);
+    font-weight: 400;
 }
 /***********************footer *****************/
 
