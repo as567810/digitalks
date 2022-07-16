@@ -129,6 +129,38 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
+    var swiper = new Swiper(".mySlide", {
+        slidesPerView: 6,
+        slidesPerGroup: 1,
+        spaceBetween: 10,
+        loop: true,
+        freeMode: false,
+        autoPlay: true,
+        speed: 1000,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+
+        },
+
+        navigation: {
+            nextEl: ".mySlide .swiper-button-next",
+            prevEl: ".mySlide .swiper-button-prev",
+
+        },
+
+        pagination: {
+            // el: ".swiper-pagination",
+            // clickable: true,
+        },
+        breakpoints: {
+            500: {
+                slidesPerView: 1,
+            },
+
+        }
+    });
+
     var swiper = new Swiper(".our-team", {
         slidesPerView: 1,
         slidesPerGroup: 1,
