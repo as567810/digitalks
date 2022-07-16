@@ -130,9 +130,9 @@ $(document).ready(function() {
     });
 
     var swiper = new Swiper(".mySlide", {
-        slidesPerView: 6,
+        slidesPerView: 5,
         slidesPerGroup: 1,
-        spaceBetween: 10,
+        spaceBetween: 0,
         loop: true,
         freeMode: false,
         autoPlay: true,
@@ -144,8 +144,8 @@ $(document).ready(function() {
         },
 
         navigation: {
-            nextEl: ".mySlide .swiper-button-next",
-            prevEl: ".mySlide .swiper-button-prev",
+            nextEl: " .swiper-button-next",
+            prevEl: " .swiper-button-prev",
 
         },
 
@@ -153,13 +153,24 @@ $(document).ready(function() {
             // el: ".swiper-pagination",
             // clickable: true,
         },
-        breakpoints: {
-            500: {
-                slidesPerView: 1,
-            },
+        // breakpoints: {
+        //     500: {
+        //         slidesPerView: 1,
+        //     },
 
-        }
+        // }
     });
+    // var swiper = new Swiper(".mySlide", {
+    //     slidesPerView: 5,
+    //     spaceBetween: 0,
+    //     speed: 1400,
+    //     autoplay: true,
+    //     delay: 4000,
+    //     pagination: {
+    //       el: ".partial .swiper-pagination",
+    //       clickable: true,
+    //     },
+    //   });
 
     var swiper = new Swiper(".our-team", {
         slidesPerView: 1,

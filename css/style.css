@@ -1321,6 +1321,8 @@ input {
     align-items: center;
     justify-content: center;
     color: #fff;
+    opacity: 0;
+    visibility: hidden;
     
 }
 .catlist ul li .overlay  h3{
