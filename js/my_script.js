@@ -262,6 +262,37 @@ $(document).ready(function() {
 
     });
 
+    var swiper = new Swiper(".blogSlide", {
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoPlay: true,
+        speed: 700,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+
+        },
+
+        navigation: {
+            nextEl: " .swiper-button-next",
+            prevEl: " .swiper-button-prev",
+
+        },
+
+        pagination: {
+            // el: ".swiper-pagination",
+            // clickable: true,
+        },
+        // breakpoints: {
+        //     500: {
+        //       slidesPerView: 4,
+        //     },
+
+        //   }
+    });
+
     $('.boxes .tab').hide();
     $('.boxes .tab.tab-1').show();
     $('.options li ').click(function() {

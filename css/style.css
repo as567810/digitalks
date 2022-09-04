@@ -855,7 +855,7 @@ input {
 }
 
 .services ul li {
-    width: 31.33%;
+    width: 48%;
     margin: 1%;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.089);
     padding: 20px 30px;
@@ -1411,6 +1411,167 @@ input {
     color: rgb(31, 31, 31);
     font-weight: 400;
 }
+
+.echron-blog {
+    padding: 50px 0;
+    position: relative;
+}
+
+.echron-blog h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #313c74;
+}
+
+/* .echron-blog h3 {
+    
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+} */
+
+.echron-blog .main-com {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.echron-blog .blogs-comm .date-admin {
+    display: flex;
+}
+
+.echron-blog .main-com .echron-btn {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    background: #cd2f27;
+}
+
+.echron-blog .main-com .echron-btn:hover {
+    background: #f2c108;
+    color: #313c74;
+}
+
+.echron-blog .blogs-comm .date-admin .adm {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+
+.echron-blog .date-admin .adm a {
+    color: #898a9c;
+}
+
+.echron-blog .date-admin .adm::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #898a9c70;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: -12px;
+}
+
+.echron-blog .date-admin .adm:nth-child(1):before {
+    content: none;
+}
+
+.echron-blog .com-text h4 {
+    font-size: 18px;
+    margin-bottom: 17px;
+    color: #1d2143;
+    font-weight: 500;
+}
+
+.echron-blog .com-text p {
+    color: #898a9c;
+    margin-top: 12px;
+}
+
+.echron-blog .blogs-comm ul {
+    display: flex;
+}
+
+.echron-blog::before {
+    content: '';
+    top: 100px;
+    left: 30px;
+    width: 300px;
+    height: 500px;
+    background-size: 100%;
+    background-image: url(../images/plan-img-01.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    animation: UpDown 5s cubic-bezier(.51, .45, .75, .72) infinite;
+    z-index: -1;
+}
+
+.echron-blog .blogs-comm ul li {
+    width: 33.33%;
+}
+
+.echron-blog .com-text {
+    background: #fff;
+    width: 330px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 8%);
+}
+
+.echron-blog .com-text::before {
+    position: absolute;
+    content: '';
+    top: 20px;
+    left: 0;
+    background: #313c74;
+    width: 4px;
+    height: 50px;
+}
+
+.echron-blog .blogs-comm .date-admin img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.echron-blog .blogs-comm p {
+    margin-top: 12px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+.echron-blog .blogs-comm .read {
+    color: #313c74;
+    font-weight: 500;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.echron-blog .blogs-comm .read::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    width: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    background: #313c74;
+}
+
+
 /***********************footer *****************/
 
 footer {
