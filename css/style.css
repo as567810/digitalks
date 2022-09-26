@@ -1129,6 +1129,7 @@ input {
     width: 56%;
     height: 100%;
     z-index: -1;
+    top: 0;
 }
 .why-us h2{
     position: relative;
@@ -1415,6 +1416,7 @@ input {
 .echron-blog {
     padding: 50px 0;
     position: relative;
+    background: #f8f7ff;
 }
 
 .echron-blog h2 {
@@ -1901,7 +1903,54 @@ footer .foot-copyright .cpy-txt {
     cursor: pointer;
     border: 1px solid #f1f1f1;
 }
+.how_it_works{
+    padding: 50px 20px;
+   
+}
+.how_it_works h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.how_it_works .para{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+.how_it_works .main-d{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.how_it_works .left{
+    width: 76%;
+    padding-left: 100px;
+}
+.how_it_works .left img{
+    width: 100px;
+}
+.how_it_works .right{
+    width: 20%;
+}
+.how_it_works .left ul{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
 
+
+}
+.how_it_works .left ul li{
+    width: 49%;
+    margin-bottom: 2%;
+    box-shadow: 0 3px 20px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+.how_it_works .left ul li h3{
+    font-size: 22px;
+    margin: 10px 0;
+}
 /*********************medium-desktop screen***********************/
 
 @media (min-width: 1600px) and (max-width: 1699px) {
