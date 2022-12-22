@@ -1086,6 +1086,7 @@ input {
 .why-us{
     padding: 50px 0;
     position: relative;
+    background: #008795;
 }
 .why-us .img{
     width: 400px;
@@ -1107,6 +1108,7 @@ input {
     position: relative;
     font-weight: 600;
     opacity: 0.8;
+    color: #fff;
 }
 .why-us .main-d ul li::before{
     position: absolute;
@@ -1137,6 +1139,7 @@ input {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
+    color: #fff;
 }
 .why-us h2::before{
     content: '';
@@ -1737,7 +1740,19 @@ footer .foot-copyright .cpy-txt {
     font-weight: 400;
     margin-top: 10px;
 }
-
+.faq .main-d{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.faq .left{
+    width: 50%;
+}
+.faq .right{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
 .accordion-container .accordion-title:hover,
 .accordion-container .accordion-title:active,
 .accordion-title.open {
@@ -1895,13 +1910,15 @@ footer .foot-copyright .cpy-txt {
 .accordion-container .accordion-title {
     position: relative;
     margin: 0;
-    padding: 0.625em 0.625em 0.625em 2em;
+    padding: 30px 20px;
     font-family: 'Khand', sans-serif;
     font-size: 1.25em;
     font-weight: normal;
     color: #444;
     cursor: pointer;
     border: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
 }
 .how_it_works{
     padding: 50px 20px;
