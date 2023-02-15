@@ -264,7 +264,7 @@ $(document).ready(function() {
 
     var swiper = new Swiper(".blogSlide", {
         slidesPerView: 3,
-        slidesPerGroup: 1,
+    
         spaceBetween: 20,
         loop: true,
         autoPlay: true,
@@ -285,12 +285,12 @@ $(document).ready(function() {
             // el: ".swiper-pagination",
             // clickable: true,
         },
-        // breakpoints: {
-        //     500: {
-        //       slidesPerView: 4,
-        //     },
+        breakpoints: {
+            500: {
+              slidesPerView:3,
+            },
 
-        //   }
+          }
     });
 
     $('.boxes .tab').hide();
