@@ -34,7 +34,7 @@
                     <div class="swiper-pagination"></div>
                   </div>
                 </div> -->
-
+`
             <!-- <div class="slider-logo">
                   <marquee behavior="" direction=""><img src="./images/slider-logo1.png" alt="slider-logo-1" /></marquee>
                 </div> -->
