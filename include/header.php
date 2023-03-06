@@ -3,7 +3,7 @@
       <div class="nav-wrapper">
         <div class="container">
           <nav class="navbar">
-            <a href=""><img class="blk_log" src="images/logo.png" alt="Cromatik" title="Cromatik"></a>
+            <a href="index.php"><img class="blk_log" src="images/logo.png" alt="" title=""></a>
             <!-- <a href="https://cromatik.in//index.php"><img class="fix_log"
                     src="https://cromatik.in//images/logo1.png" alt="Cromatik" title="footerCromatik"></a> -->
             <div class="menu-toggle" id="mobile-menu">
