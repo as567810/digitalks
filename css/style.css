@@ -2343,4 +2343,21 @@ footer .foot-copyright .cpy-txt {
     .faq .left{
         width: 100%;
     }
+    
+    .main-data .main-d .right-de,
+    .main-data .main-d .left-de{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .foot-2 .inner-foot-2{
+        width: 100%;
+    }
+    footer .foot-2 .inner-foot-2:nth-child(2){
+        padding-left: 0;
+    }
+    footer .inner-foot-2 li{
+        margin-left: 10px;
+    
+    }
+    
 }
