@@ -81,7 +81,7 @@
               <img src="images/logo.png" alt="Cromatik" title="Cromatik">
             </a>
           </li>
-          <li class="nav-item"><a class="active" data-id="top_banner" href="">HOME</a></li>
+          <li class="nav-item"><a class="active" data-id="top_banner" href="index.php">HOME</a></li>
           <li class="nav-item"><a data-id="about-us" href="">ABOUT US</a></li>
           <li class="nav-item"><a data-id="services" href="javascript:void()">SERVICES<span><i
                   class="fa fa-caret-down"></i></span></a>

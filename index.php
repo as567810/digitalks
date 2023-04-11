@@ -81,7 +81,7 @@
           </li>
           <li class="wow slideInLeft">
             <figure>
-              <img src="images/icons/4.png" alt="">
+              <img src="images/icons/influence.png" alt="">
             </figure>
             <h3>Influencer Marketing</h3>
             <p>We are providers of highly researched influencer marketing campaigns to reach out to your traffic nuts.
@@ -110,7 +110,7 @@
           </li>
           <li class="wow slideInLeft">
             <figure>
-              <img src="images/icons/6.png" alt="">
+              <img src="images/icons/4.png" alt="">
             </figure>
             <h3>Graphic Design</h3>
             <p>Sick of tacky and disorganized graphic designs? Hash Digitech has a passion for graphic design. Our
@@ -119,7 +119,7 @@
           </li>
           <li class="wow slideInLeft">
             <figure>
-              <img src="images/icons/6.png" alt="">
+              <img src="images/icons/ui.png" alt="">
             </figure>
             <h3>UI Design</h3>
             <p>We strive to create a user-friendly website that will enable you to build trust with your audience and
@@ -129,7 +129,7 @@
           </li>
           <li class="wow slideInLeft">
             <figure>
-              <img src="images/icons/6.png" alt="">
+              <img src="images/icons/web-deve.png" alt="">
             </figure>
             <h3>Website Design & Development</h3>
             <p>Do you need a custom-built website, but don't know how to make it? We have a modern strategy to transform
@@ -139,7 +139,7 @@
           </li>
           <li class="wow slideInLeft">
             <figure>
-              <img src="images/icons/6.png" alt="">
+              <img src="images/icons/video.png" alt="">
             </figure>
             <h3>Video Editing</h3>
             <p>Are you a youtuber, influencer or business owner? Get the boom? No matter what your video editing needs
