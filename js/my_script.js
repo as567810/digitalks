@@ -27,6 +27,18 @@ $(".cl_form").click(function() {
     }, 1000);
 });
 
+$('#services').click(function(){
+    $('.drop-dn').css("opacity","1");
+    $('.navbar ul').css("transform", "translate(0)");
+    $('.mob-drop').css("width", "100%");
+    $('.mob-drop').css("overflow", "auto");
+});
+
+$('.back-opt').click(function(){
+    $('.drop-dn').css("opacity","0");
+    $('.navbar ul').css("transform", "translate(-101%)");
+});
+
 // navigation
 
 $(document).ready(function() {
@@ -263,7 +275,7 @@ $(document).ready(function() {
     });
 
     var swiper = new Swiper(".blogSlide", {
-        slidesPerView: 3,
+        slidesPerView: 1,
     
         spaceBetween: 20,
         loop: true,

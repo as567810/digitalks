@@ -22,7 +22,7 @@
               <img src="images/bg-cont.jpg" alt="">
             </figure>
 
-            <h1>Influencer Marketing </h1>
+            <h1>Graphic Design</h1>
 
             <div class="details-all">
               <p>Welcome to Hash Digitech's Graphic Design Services! We are a top-notch graphic design company that

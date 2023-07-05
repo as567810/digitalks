@@ -83,7 +83,7 @@
           </li>
           <li class="nav-item"><a class="active" data-id="top_banner" href="index.php">HOME</a></li>
           <li class="nav-item"><a data-id="about-us" href="">ABOUT US</a></li>
-          <li class="nav-item"><a data-id="services" href="javascript:void()">SERVICES<span><i
+          <li class="nav-item"><a data-id="services" id="services" href="javascript:void()">SERVICES<span><i
                   class="fa fa-caret-down"></i></span></a>
             <div class="drop-dn">
               <ul class="service-drop">
@@ -170,7 +170,7 @@
 
           <ul class="mob-drop">
             <li>
-              <h3>Digital Marketing</h3>
+              <h3>Digital Marketing <a class="back-opt" href="javascript:void()"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></h3>
             </li>
             <li><a href="seo.php">Search Engine Optimization</a></li>
             <li><a href="ppc.php">Paid Marketing</a></li>
@@ -220,7 +220,7 @@
 
 
           <li class="nav-item"><a data-id="major_eligibility" href="#">CAREER</a></li>
-          <li class="nav-item"><a data-id="major_eligibility" href="#">CONTACT US</a></li>
+          <li class="nav-item"><a data-id="major_eligibility" href="contact.php">CONTACT US</a></li>
         </ul>
       </nav>
     </div>

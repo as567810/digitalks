@@ -248,9 +248,10 @@
     </section>
 
     <section class="faq">
+      
+      <div class="container">
       <h2 class="wow slideInRight">Frequently Asked Questions</h2>
       <p class="sub-head">We’re happy to take all our client queries and answer them to the best of our knowledge </p>
-      <div class="container">
         <div class="main-d">
           <div class="left">
             <div id="accordion" class="accordion-container">
@@ -342,16 +343,16 @@
       </div>
     </section>
 
-    <section class="echron-blog">
+   <!-- <section class="echron-blog">
       <div class="container">
         <div class="main-com">
           <div class="common lrf">
             <h2>OUR LATEST NEWS/BLOG</h2>
 
           </div>
-          <!-- <div class="common lrf">
+           <div class="common lrf">
           <a class="echron-btn">View More News</a>
-        </div> -->
+        </div> 
         </div>
         <div class="blogs-comm">
           <div class="swiper-container blogSlide">
@@ -403,7 +404,7 @@
         </div>
 
     </section>
-
+-->
 
 
 
@@ -433,7 +434,7 @@
             <textarea class="about" name="message" placeholder="Your Message.."></textarea>
             <!-- <div class="g-recaptcha" data-sitekey="6LeN8AcfAAAAAOQS0Q4g0r2f8EBh_ZoZ2JrHrRlf"></div>
           <script src="https://www.google.com/recaptcha/api.js"></script> -->
-            <button class="btn cl_form_sub" name="submit" type="button">submit now</button>
+            <button class="btn cl_form_sub" name="submit" type="submit">submit now</button>
           </form>
         </div>
     </section>

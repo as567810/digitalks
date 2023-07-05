@@ -1,679 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta name="robots" content="NOINDEX, NOFOLLOW" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hashdigitech</title>
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
-  </head>
+  <?php include('include/head.php');?>
 
   <body>
 
 
-    <!-- THIS IS HEADER -->
-    <header class="wow fadeIn">
-      <div class="nav-wrapper">
-        <div class="container">
-          <nav class="navbar">
-            <a href=""><img class="blk_log" src="images/logo.png" alt="Cromatik" title="Cromatik"></a>
-            <!-- <a href="https://cromatik.in//index.php"><img class="fix_log"
-                    src="https://cromatik.in//images/logo1.png" alt="Cromatik" title="footerCromatik"></a> -->
-            <div class="menu-toggle" id="mobile-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
+
+    <?php include('include/header.php');?>
+
+
+    <section class="top-ban">
+      <img src="images/ban2.jpg" alt="">
+    </section>
+
+    <section class="form-sec">
+      <div class="container">
+        <div class="main">
+          <div class="lt">
+            <h2>Say Hello</h2>
+            <form action="">
+              <div class="inp">
+                <input type="text" class="name" val="" placeholder="Full Name" required />
+              </div>
+              <div class="inp">
+                <input type="text" class="phone" val="" placeholder="Phone" required />
+              </div>
+              <div class="inp">
+                <input type="email" class="email" val="" placeholder="Email" required />
+              </div>
+              <div class="inp">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your text"></textarea>
+              </div>
+              <button class="btn">Send</button>
+            </form>
+          </div>
+          <div class="rt">
+            <h2>Contact Us</h2>
+            <div class="detail">
+              <i class="fa fa-map-marker"></i>
+              <p> B-31, 2nd Floor, Beside Gold Gym, RDC, Raj Nagar, Ghaziabad, Uttar Pradesh-201002</p>
             </div>
-
-            <div class="soc_icons">
-              <a href="https://wa.me/" target="_blank"><img src="https://cromatik.in//images/wa.png" alt=""></a>
-              <a href="https://facebook.com/" target="_blank"><img src="https://cromatik.in//images/fb.png" alt=""></a>
-              <a href="https://www.youtube.com/channel/UCXLDdE0IrqTeGOFnxlB5mLg/videos" target="_blank"><img
-                  src="https://cromatik.in//images/yt.png" alt=""></a>
+            <div class="detail">
+              <i class="fa fa-phone"></i>
+              <p><a href="tel:+919599970508 ">+91-95 999 70508 </a></p>
             </div>
-
-            <!-- slider logo with marquee -->
-
-            <!-- <div class="slider-logo-head">
-                  <div class="swiper-container mySlide">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="./images/slider-logo1.png" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="./images/slider-logo1.png" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div> -->
-
-            <!-- <div class="slider-logo">
-                  <marquee behavior="" direction=""><img src="./images/slider-logo1.png" alt="slider-logo-1" /></marquee>
-                </div> -->
-            <!-- <div class="slider-text">
-                  <p>Brands we have <br />worked so far</p>
-                </div> -->
-            <!-- end slider logo with marquee -->
-            <!-- <div class="social">
-                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                    <div class="quote">
-                      <span class="request">request quote</span>
-                      <span class="free">free</span>
-                    </div>
-                    <form action="" class="pop-req">
-                      <div class="inp">
-                        <input type="text" placeholder="Name" />
-                      </div>
-                      <div class="inp">
-                        <input type="text" placeholder="Email" />
-                      </div>
-                      <div class="inp">
-                        <input type="text" placeholder="Phone" />
-                      </div>
-                      <div class="inp">
-                        <select name="select-message" id="opt_sel">
-                          <option value="" disabled selected>Select</option>
-                          <option value="Graphic-Design" data-id="1">Graphic Design</option>
-                          <option value="Web-Design" data-id="2">Web Design</option>
-                          <option value="Video-Production" data-id="3">Video Production</option>
-                          <option value="Digtal-Marketing" data-id="4">Digtal Marketing</option>
-                          <option value="Other" data-id="5">Other</option>
-                        </select>
-                      </div>
-                      <div class="inp">
-                        <textarea name="Message" id="" cols="22" rows="5" placeholder="Write your message..."></textarea>
-                      </div>
-                      <div class="form-btn">
-                        <button type="button">Submit</button>
-                      </div>
-                    </form>
-                </div> -->
-            <ul class="nav no-search">
-              <li>
-                <a href="">
-                  <img src="images/logo.png" alt="Cromatik" title="Cromatik">
-                </a>
-              </li>
-              <li class="nav-item"><a class="active" data-id="top_banner" href="">HOME</a></li>
-              <li class="nav-item"><a data-id="about-us" href="">ABOUT US</a></li>
-              <li class="nav-item"><a data-id="services" href="javascript:void()">SERVICES<span><i
-                      class="fa fa-caret-down"></i></span></a>
-                <div class="drop-dn">
-                  <ul class="service-drop">
-                    <li>
-                      <div class="drop-inner">
-                        <figure><img src="images/3d.png" alt=""></figure>
-                        <ul class="list">
-                          <li>
-                            <h3>Digital Marketing</h3>
-                          </li>
-                          <li><a href="">Search Engine Optimization</a></li>
-                          <li><a href="">Paid Marketing</a></li>
-                          <li><a href="">Social Media Marketing</a></li>
-                          <li><a href="">Ecommerce Solution
-                            </a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="drop-inner">
-                        <figure><img src="images/graphics.png" alt=""></figure>
-                        <ul class="list">
-
-                          <li>
-                            <h3>Graphic Designing</h3>
-                          </li>
-                          <li><a href="">Brochure/Catalogue</a></li>
-                          <li><a href="">Packaging Design</a></li>
-                          <li><a href="">Logo Design</a></li>
-                          <li><a href="">Print Ad</a></li>
-                          <li><a href="">EDM</a></li>
-                          <li><a href="">Social Media</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="drop-inner">
-                        <figure><img src="images/web.png" alt=""></figure>
-                        <ul class="list">
-                          <li>
-                            <h3>Web Designing &amp; Development</h3>
-                          </li>
-                          <li><a href="javascript:void()">Static Designing</a></li>
-                          <li><a href="javascript:void()">Responsive Designing</a></li>
-                          <li><a href="javascript:void()">Dynamic Development</a></li>
-                          <li><a href="javascript:void()">Online Software</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="drop-inner">
-                        <figure><img src="images/photography.png" alt=""></figure>
-                        <ul class="list">
-                          <li>
-                            <h3>Influencer Marketing</h3>
-                          </li>
-                          <li><a href="javascript:void()">People</a></li>
-                          <li><a href="javascript:void()">Products</a></li>
-                          <li><a href="javascript:void()">Industrial</a></li>
-                          <li><a href="javascript:void()">Interiors n Architectural</a></li>
-                          <li><a href="javascript:void()">Food &amp; Drinks</a></li>
-                          <li><a href="javascript:void()">Jewellery &amp; Watches</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="drop-inner">
-                        <figure><img src="images/video.png" alt=""></figure>
-                        <ul class="list">
-                          <li>
-                            <h3>Videography</h3>
-                          </li>
-                          <li><a href="javascript:void()">Video Editing</a></li>
-                          <li><a href="javascript:void()">Corporate Video</a></li>
-                          <li><a href="javascript:void()">Animation Films</a></li>
-                        </ul>
-                      </div>
-                    </li>
-
-                  </ul>
-                </div>
-
-              </li>
-
-              <li class="nav-item"><a data-id="major_eligibility" href="care">CAREER</a></li>
-              <li class="nav-item"><a data-id="major_eligibility" href="conta">CONTACT US</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- THIS IS FORM -->
-    <section class="banner wow fadeIn">
-      <img src="images/ban3.jpg" alt="">
-      <div class="container">
-        <div class="seo_text wow slideIntLeft">
-          <h1>SEO Marketing
-            <span> Service</span>
-          </h1>
-
-          <p class="wow slideIntLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <button class="btn-co">Request Free SEO Analysis</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="about wow fadeIn">
-      <div class="container">
-
-        <div class="main-d wow slideInDown">
-          <div class="left">
-            <img src="images/about.png" alt="">
-          </div>
-          <div class="right">
-            <h2>About us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aut molestias asperiores sunt eos. Iste
-              consectetur eligendi nobis tempore possimus laudantium sed quo id molestias dicta, iure sint cumque!
-              Corrupti!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aut molestias asperiores sunt eos. Iste
-              consectetur eligendi nobis tempore possimus laudantium sed quo id molestias dicta, iure sint cumque!
-              Corrupti!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aut molestias asperiores sunt eos. Iste
-              consectetur eligendi nobis tempore possimus laudantium sed quo id molestias dicta, iure sint cumque!
-              Corrupti!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="services ">
-      <div class="container">
-        <h2>Our services</h2>
-        <ul class="">
-
-          <li class="wow slideInLeft">
-            <figure> <img src="images/icons/1.png" alt="">
-            </figure>
-            <h3>Search Engine Optimization</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/2.png" alt="">
-            </figure>
-            <h3>PPC</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/3.png" alt="">
-            </figure>
-            <h3> Social Media Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/4.png" alt="">
-            </figure>
-            <h3>Influencer Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/5.png" alt="">
-            </figure>
-            <h3>Youtube SEO</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/6.png" alt="">
-            </figure>
-            <h3>Ecommerce Solution</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/6.png" alt="">
-            </figure>
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/6.png" alt="">
-            </figure>
-            <h3>UI Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/6.png" alt="">
-            </figure>
-            <h3>Website Design & Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-          <li class="wow slideInLeft">
-            <figure>
-              <img src="images/icons/6.png" alt="">
-            </figure>
-            <h3>Video Editing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum cumque perferendis, corporis
-              totam
-              officiis quos. Exercitationem totam aliquam quidem ratione, perferendis ab fugit odit voluptatibus dolores
-              minus voluptas dicta.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="how_it_works">
-      <div class="">
-        <h2>How it Works</h2>
-        <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit quia facere architecto. Quo
-          possimus
-          a beatae dolore facere alias nihil. Aliquam molestias voluptate sunt quis! Laudantium aliquam tenetur
-          recusandae
-          possimus.</p>
-
-        <div class="main-d">
-          <div class="left">
-            <ul>
-              <li>
-                <figure>
-                  <img src="images/how/ic-1.png" alt="">
-                </figure>
-                <h3>Research</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="images/how/ic-2.png" alt="">
-                </figure>
-                <h3>Creation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="images/how/ic-3.png" alt="">
-                </figure>
-                <h3>Promote</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="images/how/ic-4.png" alt="">
-                </figure>
-                <h3>Analysis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="images/how/ic-5.png" alt="">
-                </figure>
-                <h3>Optimize</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-              <li>
-                <figure>
-                  <img src="images/how/ic-6.png" alt="">
-                </figure>
-                <h3>Generate report</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, cum voluptatum ducimus quia
-                  repella
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <img src="images/how/1.png" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="why-us">
-      <div class="container">
-        <h2>why Hashdigitech is the best Seo Agency for your Business </h2>
-
-        <div class="main-d">
-          <ul class="wow slideInLeft">
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, debitis! Voluptatibus obcaecati
-              adipisci sint esse fugiat voluptate itaque quaerat odit harum officia explicabo amet, labore iste quia
-              dolorum, nemo et.</li>
-
-          </ul>
-
-          <div class="img"><img src="images/why.png" alt=""></div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="faq">
-      <h2 class="wow slideInRight">Frequently Asked Questions</h2>
-      <p class="sub-head">We’re happy to take all our client queries and answer them to the best of our knowledge </p>
-      <div class="container">
-        <div class="main-d">
-          <div class="left">
-            <div id="accordion" class="accordion-container">
-             
-                <h4 class="accordion-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <div class="accordion-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur eveniet dolor
-                    necessitatibus, odio distinctio officia harum ullam esse ipsam? Velit deleniti praesentium,
-                    cupiditate
-                    labore ipsa reiciendis vel! Quaerat, qui.</p>
-                </div>
-                <h4 class="accordion-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <div class="accordion-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur eveniet dolor
-                    necessitatibus, odio distinctio officia harum ullam esse ipsam? Velit deleniti praesentium,
-                    cupiditate
-                    labore ipsa reiciendis vel! Quaerat, qui.</p>
-                </div>
-                <h4 class="accordion-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <div class="accordion-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur eveniet dolor
-                    necessitatibus, odio distinctio officia harum ullam esse ipsam? Velit deleniti praesentium,
-                    cupiditate
-                    labore ipsa reiciendis vel! Quaerat, qui.</p>
-                </div>
-                <h4 class="accordion-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <div class="accordion-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur eveniet dolor
-                    necessitatibus, odio distinctio officia harum ullam esse ipsam? Velit deleniti praesentium,
-                    cupiditate
-                    labore ipsa reiciendis vel! Quaerat, qui.</p>
-                </div>
-                <h4 class="accordion-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <div class="accordion-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur eveniet dolor
-                    necessitatibus, odio distinctio officia harum ullam esse ipsam? Velit deleniti praesentium,
-                    cupiditate
-                    labore ipsa reiciendis vel! Quaerat, qui.</p>
-                </div>
-            
+            <!-- <div class="detail">
+              <i class="fa-solid fa-phone"></i>
+              <p><a href="tel:+918630964269  ">+91-8630964269 </a></p>
+            </div> -->
+            <div class="detail">
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:hashdigitech@gmail.com">hashdigitech@gmail.com</a></p>
             </div>
           </div>
-          <div class="right">
-            <figure>
-              <img src="images/faq.png" alt="">
-            </figure>
-          </div>
         </div>
       </div>
     </section>
 
-    <section class="echron-blog">
-      <div class="container">
-        <div class="main-com">
-          <div class="common lrf">
-            <h2>OUR LATEST NEWS/BLOG</h2>
-
-          </div>
-          <!-- <div class="common lrf">
-          <a class="echron-btn">View More News</a>
-        </div> -->
-        </div>
-        <div class="blogs-comm">
-          <div class="swiper-container blogSlide">
-            <ul class="swiper-wrapper">
-              <li class="swiper-slide">
-                <figure><img src="images/blog.jpg" alt=""></figure>
-                <div class="com-text">
-                  <h4>How to ensure a direct hassle-free visa application</h4>
-                  <div class="date-admin">
-
-                    <div class="adm">
-                      <a href=""><i class="fa fa-calendar"></i> June 9, 2020</a>
-                    </div>
-                  </div>
-                  <p>There are full service engage company is to provide solution for employees needs trai...</p>
-                  <a class="read" href="">Read More</a>
-                </div>
-              </li>
-              <li class="swiper-slide">
-                <figure><img src="images/blog.jpg" alt=""></figure>
-                <div class="com-text">
-                  <h4>How to ensure a direct hassle-free visa application</h4>
-                  <div class="date-admin">
-
-                    <div class="adm">
-                      <a href=""><i class="fa fa-calendar"></i> June 9, 2020</a>
-                    </div>
-                  </div>
-                  <p>There are full service engage company is to provide solution for employees needs trai...</p>
-                  <a class="read" href="">Read More</a>
-                </div>
-              </li>
-              <li class="swiper-slide">
-                <figure><img src="images/blog.jpg" alt=""></figure>
-                <div class="com-text">
-                  <h4>How to ensure a direct hassle-free visa application</h4>
-                  <div class="date-admin">
-
-                    <div class="adm">
-                      <a href=""><i class="fa fa-calendar"></i> June 9, 2020</a>
-                    </div>
-                  </div>
-                  <p>There are full service engage company is to provide solution for employees needs trai...</p>
-                  <a class="read" href="">Read More</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-    </section>
-
-
-
-
-    <section class="enquiry-form">
-      <div class="container">
-        <div class="left-text">
-          <!-- <h1>Fill Your Query Here</h1>
-        <p>If you have any specific query regarding your upcoming project, please fill this form, we will get back to you within 3-4 hours. SOMETIMES BEFORE YOUR EXPACTATIONS :)</p>
-        <ul>
-          <li><a href="https://www.facebook.com/Cromatik-207300825973349/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        </ul> -->
-          <figure>
-            <img src="images//conatct.jpg" alt="">
-          </figure>
-        </div>
-        <div class="right-form wow slideInLeft">
-          <div class="heading">
-            <h2>GET IN TOUCH</h2>
-            <p>distinctively exploit optimal alignments for intuitive coordinate business applications technologies</p>
-          </div>
-          <form action="thanks.php" method="post">
-            <input type="hidden" name="action" value="contact_form" />
-            <input class="name" type="text" name="name" placeholder="Name" />
-            <input class="email" type="text" name="email" placeholder="Email" />
-            <input class="phone" type="text" name="phone" placeholder="Phone" />
-            <!-- <input type="text" name="subject" placeholder="Subject" /> -->
-            <textarea class="about" name="message" placeholder="Your Message.."></textarea>
-            <!-- <div class="g-recaptcha" data-sitekey="6LeN8AcfAAAAAOQS0Q4g0r2f8EBh_ZoZ2JrHrRlf"></div>
-          <script src="https://www.google.com/recaptcha/api.js"></script> -->
-            <button class="btn cl_form_sub" name="submit" type="button">submit now</button>
-          </form>
-        </div>
-    </section>
+    <!-- <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.3714517165586!2d77.35862551440613!3d28.58863139281874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce59e29faa0b9%3A0xa95ff842aa8ceba7!2sMain%20Rd%2C%20Block%20E%2C%20Sector%2053%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1655044032829!5m2!1sen!2sin"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
 
 
 
 
+    <?php include('include/foot.php')?>
 
 
-    <footer class="wow fadeInDown ">
-      <div class="foot-2">
-        <div class="container">
-          <div class="inner-foot-2">
-            <figure><a href=""><img src="images/logo.png" alt=""></a></figure>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi officia necessitatibus, ipsa autem
-              temporibus cum? Neque eveniet suscipit repellendus quidem quibusdam ad rerum commodi corrupti iusto, harum
-              quae, accusamus praesentium?</p>
-            <li>
-              <!--   <span class="social">
-                                  <a href="#myDiv"> <i class="fa fa-facebook"></i></a>
-                                  <a href="#"> <i class="fa fa-twitter"></i></a>
-                                  <a href="#"> <i class="fa fa-linkedin"></i></a>
-                                  <a href="#"> <i class="fa fa-instagram"></i></a>
-                              </span> -->
-            </li>
-          </div>
-          <div class="inner-foot-2">
-            <ul>
-              <h2>Quick Links</h2>
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">Blog</a></li>
-            </ul>
-          </div>
-          <div class="inner-foot-2">
-            <ul>
-              <h2>Services</h2>
-              <li><a href="">Digital Marketing
-                </a></li>
-              <li><a href="">Influencer Marketing
-                </a></li>
-              <li><a href="">Website Design & Development</a></li>
-              <li><a href="">Graphic Design</a></li>
-              <li><a href="">Video Production</a></li>
-              <li><a href="">Ecommerce Solution</a></li>
-            </ul>
-          </div>
-
-          <div class="inner-foot-2">
-            <ul>
-              <h2>contact</h2>
-              <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Molestias </a></li>
-
-              <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999xxxx</a>
-              </li>
-              <!-- <li><a href="tel:+919811825573"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999xxxx</a></li>
-            <li><a href="mailto:RamRachna.tourandtravel84@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                RamRachna.tourandtravel84@gmail.com</a></li> -->
-              <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>
-                  abc@gmail.com</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class=" foot-copyright ">
-          <p><span class="cpy-txt">Copyright</span> @ 2022 Hashdigitech All Rights Reserved</p>
-        </div>
-      </div>
-    </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/my_script.js"></script>
-    <script>
-    </script>
   </body>
 
 </html>

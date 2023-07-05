@@ -18,45 +18,46 @@
           <div class="inner-foot-2">
             <ul>
               <h2>Quick Links</h2>
-              <li><a href="">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><a href="">About Us</a></li>
               <li><a href="">Services</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
               <li><a href="">Blog</a></li>
             </ul>
           </div>
           <div class="inner-foot-2">
             <ul>
               <h2>Services</h2>
-              <li><a href="">Digital Marketing
+              <li><a href="seo.php">Digital Marketing
                 </a></li>
-              <li><a href="">Influencer Marketing
+              <li><a href="influence.php">Influencer Marketing
                 </a></li>
               <li><a href="web-design-development.php">Website Design & Development</a></li>
-              <li><a href="">Graphic Design</a></li>
-              <li><a href="">Video Production</a></li>
-              <li><a href="">Ecommerce Solution</a></li>
+              <li><a href="graphic.php">Graphic Design</a></li>
+              <li><a href="video-production.php">Video Production</a></li>
+              <li><a href="ecommerce.php">Ecommerce Solution</a></li>
             </ul>
           </div>
 
           <div class="inner-foot-2">
             <ul>
               <h2>contact</h2>
-              <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Molestias </a></li>
+              <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; K-113, 2nd Floor, Krishna Park Extension, New Delhi-110018 </a></li>
+			  
+			  <li><a><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; B-31, 2nd Floor, beside gold Gym, RDC, Raj Nagar, Ghaziabad, Uttar Pradesh-201002 </a></li>
 
-              <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999xxxx</a>
+              <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-95 999 70508</a>
               </li>
               <!-- <li><a href="tel:+919811825573"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9999xxxx</a></li>
             <li><a href="mailto:RamRachna.tourandtravel84@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>
                 RamRachna.tourandtravel84@gmail.com</a></li> -->
               <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>
-                  abc@gmail.com</a></li>
+                  hashdigitech@gmail.com</a></li>
             </ul>
           </div>
         </div>
         <div class=" foot-copyright ">
-          <p><span class="cpy-txt">Copyright</span> @ 2022 Hashdigitech All Rights Reserved</p>
+          <p><span class="cpy-txt">Copyright</span> @ 2023 Hashdigitech All Rights Reserved</p>
         </div>
       </div>
     </footer>
