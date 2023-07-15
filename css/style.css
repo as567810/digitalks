@@ -202,7 +202,9 @@ section {
 
 
 /* BASIC SETUP */
-
+.head-margin{
+    height: 90px;
+}
 header {
     width: 100%;
     background: #fff;

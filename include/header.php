@@ -81,7 +81,7 @@
               <img src="images/logo.png" alt="Cromatik" title="Cromatik">
             </a>
           </li>
-          <li class="nav-item"><a class="active" data-id="top_banner" href="index.php">HOME</a></li>
+          <li class="nav-item"><a <?php if(FILENAME == 'index') echo 'class="active"';?> data-id="top_banner" href="index.php">HOME</a></li>
           <li class="nav-item"><a data-id="about-us" href="">ABOUT US</a></li>
           <li class="nav-item"><a data-id="services" id="services" href="javascript:void()">SERVICES<span><i
                   class="fa fa-caret-down"></i></span></a>
@@ -219,10 +219,11 @@
           </ul>
 
 
-          <li class="nav-item"><a data-id="major_eligibility" href="#">CAREER</a></li>
-          <li class="nav-item"><a data-id="major_eligibility" href="contact.php">CONTACT US</a></li>
+          <!-- <li class="nav-item"><a data-id="major_eligibility" href="#">CAREER</a></li> -->
+          <li  class="nav-item"><a <?php if(FILENAME == 'contact') echo 'class="active"';?> href="contact.php">CONTACT US</a></li>
         </ul>
       </nav>
     </div>
   </div>
 </header>
+<div class="head-margin"></div>

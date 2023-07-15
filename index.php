@@ -17,7 +17,7 @@
             <span> Service</span>
           </h1>
 
-          <p class="wow slideIntLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <!-- <p class="wow slideIntLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
           <button class="btn-co">Request Free SEO Analysis</button>
         </div>
       </div>
